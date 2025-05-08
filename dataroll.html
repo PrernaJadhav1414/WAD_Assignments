@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- jQuery Mobile CSS -->
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  
+  <!-- jQuery and jQuery Mobile JS -->
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  
+  <!-- Custom CSS (Optional) -->
+  <link rel="stylesheet" href="css/custom.css">
+  
+  <title>Mobile Website</title>
+</head>
+<body>
+
+    <!-- ===== PAGE 1: HOME ===== -->
+<div data-role="page" id="home">
+    <div data-role="header">
+      <h1>My Mobile App</h1>
+    </div>
+  
+    <div data-role="main" class="ui-content">
+      <p>Welcome to my mobile-friendly website!</p>
+      <a href="#about" class="ui-btn ui-btn-b">About Us</a>
+      <a href="#contact" class="ui-btn">Contact</a>
+    </div>
+  
+    <div data-role="footer" data-position="fixed">
+      <h4>&copy; 2023 My App</h4>
+    </div>
+  </div>
+
+  <!-- ===== PAGE 2: ABOUT ===== -->
+<div data-role="page" id="about">
+    <div data-role="header">
+      <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+      <h1>About Us</h1>
+    </div>
+  
+    <div data-role="main" class="ui-content">
+      <h2>Our Story</h2>
+      <p>We are a small team building mobile-friendly websites.</p>
+      <img src="images/team.jpg" alt="Our Team" style="width:100%;">
+    </div>
+  
+    <div data-role="footer" data-position="fixed">
+      <h4>&copy; 2023 My App</h4>
+    </div>
+  </div>
+
+  <!-- ===== PAGE 3: CONTACT ===== -->
+<div data-role="page" id="contact">
+    <div data-role="header">
+      <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+      <h1>Contact</h1>
+    </div>
+  
+    <div data-role="main" class="ui-content">
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+        
+        <label for="message">Message:</label>
+        <textarea id="message"></textarea>
+        
+        <button class="ui-btn ui-btn-b">Submit</button>
+      </form>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h4>&copy; 2023 My App</h4>
+      </div>
+    </div>
+    
+ </body>
+ </html>  
